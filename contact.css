@@ -1,0 +1,65 @@
+body {
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+}
+header, nav, section, footer {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    border-bottom: #fff;
+    
+        
+    
+ }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    
+    
+ }
+ 
+ nav li {
+    display: inline;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size:x-large;
+    text-decoration:solid;
+    border-style:outset ;
+    border-radius: 40px;
+    border-color: #535353;
+    
+    
+ }
+ 
+ nav a {
+    text-decoration: none;
+    color:#fff
+ }
+  
+ .harita {
+    top: 250px;
+    bottom: 10px;
+    left: 15.5em;
+   display: block;
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+    
+ }
+
+ .harita:hover{
+   opacity: 1.0;
+ }
+
+ h3 {
+   font-size: xx-large;
+   font-weight: 800;
+   color: #fff;
+ }
