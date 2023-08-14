@@ -55,15 +55,9 @@ body {
     color:#fff
  }
  
-.grow img{
-transition: 1s ease;
-}
-
-.grow img:hover{
--webkit-transform: scale(1.2);
--ms-transform: scale(1.2);
-transform: scale(1.2);
-transition: 1s ease;
+.grow:hover{
+   transform: scale(1.5);
+   transition: 1s ease;
 }
 
  
